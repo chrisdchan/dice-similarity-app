@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Dice_Similarity_Coefficient.Views.AppSettings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Dice_Similarity_Coefficient.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#C0BFC3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <CheckBox Grid.Row="2" Width="150"
+                  x:Name="checkbox"
+                  Checked="manualSelect_changed" Unchecked="manualSelect_changed">Select Files Manually</CheckBox>
+        
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Width="500" Height="30">
+            
+            <Label Content="Label Detection Method"></Label>
+            
+            <ComboBox Grid.Row="2" Height="30" Width="200" 
+                  x:Name="labelSelection" SelectionChanged="comboBox_changed">
+                <ComboBoxItem >Colored Labels, Greyscale Background</ComboBoxItem>
+                <ComboBoxItem >Grey Labels, White Background</ComboBoxItem>
+                <ComboBoxItem>Colored Labels, Colored Background</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,66 @@
+﻿<UserControl x:Class="Dice_Similarity_Coefficient.Views.ImageSelection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Dice_Similarity_Coefficient.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#272537">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Image set 1" HorizontalAlignment="Center"
+                Grid.Row="1" Grid.Column="1"
+                VerticalAlignment="Center"
+                Height="60" Width="100"
+                Click="selectFolder1"/>
+        <Button Content="Image set 2" HorizontalAlignment="Center"
+                Grid.Row="1" Grid.Column="4"
+                VerticalAlignment="Center"
+                Height="60" Width="100"
+                Click="selectFolder2"/>
+        <Image Grid.Column="0" Grid.Row="2"
+               Grid.ColumnSpan="3" Grid.RowSpan="4"
+               Margin="30"
+               Name="img1"/>
+        <Image Grid.Column="3" Grid.Row="2"
+               Grid.ColumnSpan="3" Grid.RowSpan="4"
+               Margin="30"
+               Name="img2"/>
+        <!--<Button Grid.Row="6" Grid.Column="2"
+                Margin="10" Grid.ColumnSpan="1"
+                Content="Rotate 90" Visibility="Hidden"
+                x:Name="rotate2" Click="rotate2_Click"/>
+        <Button Grid.Row="6" Grid.Column="3"
+                Margin="10" Content="Mirror" Visibility="Hidden"
+                x:Name="mirror" Click="mirror_Click"/>-->
+        <Slider Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4"
+                Margin="10"
+                Name="zslider"
+                Visibility="Hidden"
+                
+                ValueChanged="zslider_ValueChanged"></Slider>
+        <TextBlock x:Name="sliderTxt" Grid.Row="0"                         
+                   Background="#4B4D5E" Foreground="#CDCDCD"
+                   TextAlignment="Center"
+                   Grid.Column="5" Width="30" Height="30" Visibility="Hidden"/>
+    </Grid>
+</UserControl>

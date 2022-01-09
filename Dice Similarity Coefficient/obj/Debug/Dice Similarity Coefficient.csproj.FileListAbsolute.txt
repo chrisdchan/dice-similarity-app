@@ -1,0 +1,24 @@
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\bin\Debug\Dice Similarity Coefficient.pdb
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\bin\Debug\Dice Similarity Coefficient.exe.config
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\bin\Debug\Dice Similarity Coefficient.exe
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.csproj.AssemblyReference.cache
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\MainWindow.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\DiceCoefficient.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\ImageSelection.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\AppSettings.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Window2.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\App.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient_MarkupCompile.cache
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient_MarkupCompile.lref
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\MainWindow.baml
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\DiceCoefficient.baml
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\ImageSelection.baml
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Views\AppSettings.baml
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Window2.baml
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.g.resources
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice_Similarity_Coefficient.Properties.Resources.resources
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.csproj.GenerateResource.cache
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.csproj.CoreCompileInputs.cache
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.exe
+C:\Users\18457\source\repos\Dice Similarity Coefficient\Dice Similarity Coefficient\obj\Debug\Dice Similarity Coefficient.pdb
